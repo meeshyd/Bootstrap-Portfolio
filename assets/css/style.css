@@ -1,0 +1,431 @@
+
+html {
+  height: 100%;
+}
+
+body {
+	color: #777777;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	background-image: url('../images/p5.png');
+	background-repeat: repeat;
+	line-height: 150%;
+	min-height: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 150%;
+}
+/*HEADER CSS STARTS HERE*/
+
+header {
+	height: 100px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	margin: 0 0 30px;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	display: inline-block;
+	line-height: 100px;
+	letter-spacing: 1px;
+	padding: 0 30px;
+}
+
+nav {
+	margin-top: 35px;
+	float: right;
+}
+
+nav a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: inline-block;
+	margin-left: 15px;
+	padding-left: 15px;
+	color: #999;
+	line-height: 18px;
+	border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+	border-left: 0 none;
+}
+
+nav a:hover {
+	color: #4aaaa5;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*HEADER CSS STOPS HERE*/
+
+
+/*MAIN CONTENT CSS FOR ALL HTML STARTS HERE*/
+
+.container {
+	clear: both;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	flex: 1;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 28px;
+	padding-bottom: 35px;
+	border-bottom: 3px solid #dddddd;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+.content {
+	padding: 30px;
+	margin: 130px 0 40px 0;
+	width: 100%;
+ 	max-width: 650px;
+	float: left;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	display: inline-block;
+}
+.content img {
+	float: left;
+	width: 200px;
+	height: auto;
+	padding-right: 20px;
+}
+/*MAIN CONTENT CSS FOR ALL HTML STOPS HERE*/
+
+/*CONNECT SIDEBAR CSS STARTS HERE*/
+h3 {
+	color: #4aaaa5;
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.connect {
+	padding: 30px;
+ 	width: 100%;
+ 	max-width: 270px;
+ 	float: right;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	margin-top: 130px;
+}
+
+.connect img{
+	width: 62px;
+	height: auto;
+}
+
+.connectIcons {
+  display: flex;
+  justify-content: space-between;
+}
+/*CONNECT SIDEBAR CSS STOPS HERE*/
+
+/*PORTFOLIO CSS STARTS HERE*/
+.portfolioImg {
+	width: 275px;
+	height: 207px;
+	margin-bottom: 55px;
+}
+
+h4 {
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	top: 75%;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+
+#cat{
+	background-image: url('../images/cat.jpg');
+	background-size: 275px auto;
+	float: left;
+}
+
+#food {
+	background-image: url('../images/food.jpg');
+	background-size: 275px auto;
+	float: right;
+}
+
+#nature {
+	background-image: url('../images/nature.jpg');
+	background-size: 275px auto;
+	float: left;
+}
+
+#nightlife {
+	background-image: url('../images/nightlife.jpg');
+	background-size: 275px auto;
+	float: right;
+}
+
+#abstract {
+	background-image: url('../images/abstract.jpg');
+	background-size: 275px auto;
+	float: left;
+}
+/*PORTFOLIO CSS STOPS HERE*/
+
+/*CONTACT FORM CSS STARTS HERE*/
+input {
+	width: 100%;
+	color: #777777;
+	font-size: 14px;
+	margin-bottom: 20px;
+	outline: 0;
+}
+
+::-webkit-input-placeholder {
+	color: #cccccc;
+}
+
+textarea {
+	border: 1px solid #dddddd;
+	width: 100%;
+  	height: 200px;
+  	margin-bottom: 20px;
+  	outline: 0;
+  	color: #777777;
+  	font-size: 14px;
+}
+
+.formText {
+	padding-bottom: 5px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	width: 120px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #777777;
+}
+/*CONTACT FORM CSS STOPS HERE*/
+
+
+/*FOOTER CSS STARTS HERE*/
+footer {
+	height: 100px;
+	background-color: #666666;
+	color: #dddddd;
+	border-top: 10px solid #4aaaa5;
+	font-size: 12px;
+	margin-top: 40px;
+}
+
+footer p {
+	line-height: 90px;
+	text-align: center;
+}
+/*FOOTER CSS STOPS HERE*/
+
+/***/
+/***MEDIA QUERIES CSS BEGINS HERE**
+**********************************/
+
+/*START CSS FOR MEDIA WIDTH 980PX*/
+/*@media screen and (max-width: 980px) {
+	header {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	#headContainer {
+		width: 75%;
+		margin: 0 auto;
+	}
+	
+	.container {
+		max-width: 75%;
+	}
+	
+	.content {
+		display: block;
+		width: 55%;
+		overflow:hidden;
+		margin: 130px auto 0 auto;
+	}
+
+	.content img {
+		float: none;
+		display: block;
+		margin: 0 auto 15px auto;
+	}
+
+	#cat, #food, #nature, #nightlife, #abstract {
+		float: none;
+		background-size: cover;
+	}
+
+	.portfolioImg {
+		margin: 0 auto 15px auto;
+		width: 100%;
+    	height: 250px;
+	}
+
+	.connect {
+		max-width: 40%;
+		margin: 130px auto 0 auto;
+	}
+}*/
+/*END CSS FOR MEDIA WIDTH 980PX*/
+
+
+/*START CSS FOR MEDIA WIDTH 768PX*/
+/*@media screen and (max-width: 768px) {
+	
+	#headContainer {
+		width: 95%;
+	}
+	
+	.container {
+		max-width: 95%;
+	}
+	
+	.content, .connect {
+		float: none;
+		width: 768px;
+		max-width: 100%;
+	}
+
+	.content img {
+		float: left;
+	}
+
+	.connect {
+		margin: 40px auto 0 auto;
+	}
+	
+	.connectIcons {
+  		display: inline-block;
+	}
+
+  	nav, #food, #nightlife {
+		float: right;
+	}
+
+	#cat, #nature, #abstract {
+		float: left;
+	}
+
+	.portfolioImg {
+		width: 47%;
+    	height: 207px;
+    	margin: 0 auto 30px auto;
+	}
+
+	#images {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+}*/
+/*END CSS FOR MEDIA WIDTH 768PX*/
+
+
+/*START CSS FOR MEDIA WIDTH 640PX*/
+/*@media screen and (max-width: 640px) {
+	
+	header {
+		position: static;
+		margin-bottom: 30px;
+		height: 150px;
+	}
+
+	#headContainer, h1, nav, nav a {
+		max-width: 640px;
+		width: 100%;
+	}
+	
+	.content, .connect {
+		float: none;
+		width: 640px;
+		max-width: 95%;
+	}
+
+
+	h1 {
+		height: 85%;
+		line-height: 80px;
+		left: 0;
+		padding: 5px 0;
+	}
+
+	h2 {
+		padding: 20px 0;
+	}
+
+  	nav {
+		float: none;
+		margin: 0 auto;
+		background-color: white;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	nav a {
+		text-align: center;
+		margin: 20px auto 0 auto;
+		position: relative;
+		padding: 0;
+	}
+
+	.content {
+		padding: 20px;
+		margin: 0 auto 30px auto;
+	}
+
+	#cat, #food, #nature, #nightlife, #abstract, .content img {
+		float: none;
+	}
+
+	.content img {
+		width: auto;
+		height: 300px;
+		margin: 0 auto 15px auto;
+	}
+
+	.portfolioImg {
+		width: 95%;
+    	height: 320px;
+	}
+}*/
+/*END CSS FOR MEDIA WIDTH 640PX*/
