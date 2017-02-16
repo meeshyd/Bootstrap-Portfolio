@@ -16,16 +16,24 @@
 
 <body>	
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapseNav" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
       <a class="navbar-brand" href="index.html"><h1>Michelle Didier</h1></a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-    	<li><a href="index.html">About</a></li>
-    	<li><a href="portfolio.html">Portfolio</a></li>
-		<li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="collapseNav">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
@@ -68,7 +76,9 @@
     		<p class="text-center">&copy; Copyright 2017 Michelle Didier</p>
     	</div>
 	</footer>
-
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>

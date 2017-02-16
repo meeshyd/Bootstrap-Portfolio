@@ -45,6 +45,13 @@ h3 {
 }
 
 /*NAVIGATION CSS START*/
+.navbar-header {
+	border-bottom: 2px solid #cccccc;
+}
+.navbar {
+	border: none;
+}
+
 h1 {
 	text-align: center;
 	color: #fff;
@@ -53,27 +60,27 @@ h1 {
 	line-height: 70px;
 }
 
+.navbar-toggle .icon-bar {
+	background-color: #777;
+}
 .navbar-brand{
 	width: 300px;
 	height: 90px;
 	background: #4aaaa5;
 }
 
+.nav,.navbar-nav,.navbar-right {
+	color: #4aaaa5;
+	line-height: 90px;
+}
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	background-color: #4aaaa5;
 }
 
-.navbar-nav {
-	margin-top: 40px;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-	color: #4aaaa5;
-}
 /*NAVIGATION CSS END*/
 
 .main-container {
-	margin-top: 130px;
+	margin-top: 40px;
 }
 
 .well {
