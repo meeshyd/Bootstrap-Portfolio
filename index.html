@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Michelle Didier - About</title>
@@ -14,50 +14,59 @@
 
 </head>
 
-<body>
-	<header>	
-		<div class="container" id="headContainer">
-			<a href="index.html">
-				<h1>Michelle Didier</h1>
-			</a>
-			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-		</div>
-	</header>
+<body>	
 
-	<div class="container">	
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><h1>Michelle Didier</h1></a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+    	<li><a href="index.html">About</a></li>
+    	<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-			<div class="content">
+<div class="container main-container">	
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-8 well">
+			<div class="page-header">
 				<h2>About Me</h2>
-				
-				<img src="assets/images/me.jpg" alt="MichelleDidier">
-
-				<p>Puzzle solver, pattern mixer/color clasher, animal whisperer, and lover of all things buffalo chicken.</p><br>
-
-				<p>I'm a student at Northwestern's Coding Boot Camp still learning the ins-and-outs of web development, so there's not much to see here right now. Please check back soon!</p>
-			</div>
-
-			<aside class="connect">
-				<h3>Connect With Me</h3>
-					<div class="connectIcons">
-						<a href="https://github.com/meeshyd" target="_blank">
-						<img src="assets/images/github.svg" alt="GitHub"></a>
-		
-						<a href="https://www.linkedin.com/in/michelledidier" target="_blank">
-						<img src="assets/images/linkedin.svg" alt="LinkedIn"></a>
-			
-						<a href="http://stackoverflow.com/story/michelledidier" target="_blank">
-						<img src="assets/images/stackoverflow.svg" alt="StackOverflow"></a>
+			</div>				
+				<div class="row">		
+					<div class="col-xs-4 col-sm-4 col-md-4">	
+						<img class="pull-left" src="assets/images/me.jpg" alt="MichelleDidier" id="myPic">
 					</div>
-			</aside>
-		
-	</div>
+				<div class="col-xs-8 col-sm-8 col-md-8 aboutText">
+					<p>Puzzle solver, pattern mixer/color clasher, animal whisperer, and lover of all things buffalo chicken.</p><br>
+					<p>I'm a student at Northwestern's Coding Boot Camp still learning the ins-and-outs of web development, so there's not much to see here right now. Please check back soon!</p>
+				</div>
+			</div>
+		</div>		
+		<div class="col-xs-12 col-sm-12 col-md-4">
+			<div class="panel panel-default connect">
+				<div class="panel-heading"><h3>Connect With Me</h3></div>
+				<div class="panel-body connectIcons">
+					<a href="https://github.com/meeshyd" target="_blank">
+					<img src="assets/images/github.svg" alt="GitHub"></a>
 	
-	<footer>
-		<p>&copy; Copyright 2017 Michelle Didier</p>
+					<a href="https://www.linkedin.com/in/michelledidier" target="_blank">
+					<img src="assets/images/linkedin.svg" alt="LinkedIn"></a>
+				
+					<a href="http://stackoverflow.com/story/michelledidier" target="_blan">
+					<img src="assets/images/stackoverflow.svg" alt="StackOverflow"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<footer class="footer">
+ 		<div class="container">
+    		<p class="text-center">&copy; Copyright 2017 Michelle Didier</p>
+    	</div>
 	</footer>
 
 </body>
