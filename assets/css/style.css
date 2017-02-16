@@ -44,13 +44,7 @@ h3 {
 	overflow: auto;
 }
 
-/*NAVIGATION CSS START*/
-.navbar-header {
-	border-bottom: 2px solid #cccccc;
-}
-.navbar {
-	border: none;
-}
+/*NAVIGATION CSS*/
 
 h1 {
 	text-align: center;
@@ -60,25 +54,33 @@ h1 {
 	line-height: 70px;
 }
 
-.navbar-toggle .icon-bar {
-	background-color: #777;
-}
 .navbar-brand{
 	width: 300px;
 	height: 90px;
 	background: #4aaaa5;
 }
 
-.nav,.navbar-nav,.navbar-right {
-	color: #4aaaa5;
-	line-height: 90px;
+.navbar-nav>li>a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 90px;
 }
+
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	background-color: #4aaaa5;
 }
 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #777;
+}
+
+li:hover {
+    background-color: #a4d4d2;
+}
+
 /*NAVIGATION CSS END*/
 
+/*MAIN SECTION CSS*/
 .main-container {
 	margin-top: 40px;
 }
@@ -88,7 +90,7 @@ h1 {
 }
 
 #myPic {
-	width: 200px;
+	width: 100%;
 	height: auto;
 }
 
@@ -96,6 +98,8 @@ h1 {
 	width: 62px;
 	height: auto;
 }
+/*MAIN SECTION CSS END*/
+
 
 /*PORTFOLIO IMAGES CSS*/
 a:hover {
@@ -189,7 +193,7 @@ textarea {
     background-color: #777777;
     color: #fff;
 }
-/*CONTACT FORM CSS STOPS HERE*/
+/*CONTACT FORM CSS END*/
 
 footer {
   position: absolute;
