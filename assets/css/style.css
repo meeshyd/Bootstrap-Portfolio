@@ -74,6 +74,10 @@ h1 {
     color: #777;
 }
 
+li {
+	transition: all .5s ease;
+}
+
 li:hover {
     background-color: #a4d4d2;
 }
@@ -94,11 +98,19 @@ li:hover {
 	height: auto;
 }
 
+/*SIDEBAR CSS*/
+
 .connect img {
 	width: 62px;
 	height: auto;
+	transition: all .2s ease-in-out;
 }
-/*MAIN SECTION CSS END*/
+
+.connect img:hover { 
+	transform: scale(1.1); 
+}
+
+/*SIDEBAR CSS END*/
 
 
 /*PORTFOLIO IMAGES CSS*/
